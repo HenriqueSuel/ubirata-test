@@ -10,7 +10,7 @@ describe('SelectInput', () => {
     { title: 'Option 3', value: '3' },
   ];
 
-  it('renders label and options correctly', () => {
+  it('should render label and options correctly', () => {
     const label = 'Select an option';
     render(
       <SelectInput
@@ -29,7 +29,7 @@ describe('SelectInput', () => {
     });
   });
 
-  it('calls onSelected callback when an option is selected', () => {
+  it('should call the selected callback when an option is selectedd', () => {
     const label = 'Select an option';
     const onSelectedMock = vi.fn();
     render(
