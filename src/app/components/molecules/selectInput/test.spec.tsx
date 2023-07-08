@@ -10,6 +10,21 @@ describe('SelectInput', () => {
     { title: 'Option 3', value: '3' },
   ];
 
+  it('should render SelectInput', () => {
+    const label = 'Select an option';
+
+    const { container } = render(
+      <SelectInput
+        label={label}
+        options={options}
+        onSelected={() => { }}
+      />
+    );
+
+    expect(container.firstChild).toMatchSnapshot();
+
+  });
+
   it('should render label and options correctly', () => {
     const label = 'Select an option';
     render(

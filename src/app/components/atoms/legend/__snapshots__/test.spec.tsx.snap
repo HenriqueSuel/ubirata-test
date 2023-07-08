@@ -1,0 +1,73 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Legend > renders legend items correctly 1`] = `
+<div
+  class="max-w-sm rounded overflow-hidden shadow-lg absolute bottom-32 -right-1"
+>
+  <div
+    class="px-1 py-4 bg-black"
+  >
+    <div
+      class="before:content-[''] before:inline-block before:relative before:bg-blue-950 before:w-5 before:h-5 before:top-1 before:mr-3"
+    >
+      20000 - 25000
+    </div>
+    <div
+      class="before:content-[''] before:inline-block before:relative before:bg-blue-800 before:w-5 before:h-5 before:top-1 before:mr-3"
+    >
+      17000 - 19999
+    </div>
+    <div
+      class="before:content-[''] before:inline-block before:relative before:bg-blue-500 before:w-5 before:h-5 before:top-1 before:mr-3"
+    >
+      13000 - 16999
+    </div>
+    <div
+      class="before:content-[''] before:inline-block before:relative before:bg-blue-300 before:w-5 before:h-5 before:top-1 before:mr-3"
+    >
+      9000 - 12999
+    </div>
+    <div
+      class="before:content-[''] before:inline-block before:relative before:bg-blue-100 before:w-5 before:h-5 before:top-1 before:mr-3"
+    >
+      5000 - 8999
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Legend > should renders Legend 1`] = `
+<div
+  class="max-w-sm rounded overflow-hidden shadow-lg absolute bottom-32 -right-1"
+>
+  <div
+    class="px-1 py-4 bg-black"
+  >
+    <div
+      class="before:content-[''] before:inline-block before:relative before:bg-blue-950 before:w-5 before:h-5 before:top-1 before:mr-3"
+    >
+      20000 - 25000
+    </div>
+    <div
+      class="before:content-[''] before:inline-block before:relative before:bg-blue-800 before:w-5 before:h-5 before:top-1 before:mr-3"
+    >
+      17000 - 19999
+    </div>
+    <div
+      class="before:content-[''] before:inline-block before:relative before:bg-blue-500 before:w-5 before:h-5 before:top-1 before:mr-3"
+    >
+      13000 - 16999
+    </div>
+    <div
+      class="before:content-[''] before:inline-block before:relative before:bg-blue-300 before:w-5 before:h-5 before:top-1 before:mr-3"
+    >
+      9000 - 12999
+    </div>
+    <div
+      class="before:content-[''] before:inline-block before:relative before:bg-blue-100 before:w-5 before:h-5 before:top-1 before:mr-3"
+    >
+      5000 - 8999
+    </div>
+  </div>
+</div>
+`;

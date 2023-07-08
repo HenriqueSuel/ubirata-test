@@ -1,0 +1,65 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`InfoPopulation > should render InfoPopulation 1`] = `
+<div
+  class="max-w-sm rounded overflow-hidden shadow-lg absolute top-10 -right-1"
+>
+  <div
+    class="px-4 py-4 bg-black"
+  >
+    <p
+      class="text-xl pb-4"
+    >
+      Neighborhood 1
+    </p>
+    <p
+      class="text-sm"
+    >
+      Ano 
+      2021
+      : 
+      10000
+    </p>
+    <p
+      class="text-sm"
+    >
+      Ano 
+      2022
+      : 
+      8000
+    </p>
+  </div>
+</div>
+`;
+
+exports[`InfoPopulation > should render neighborhood name correctly 1`] = `
+<div
+  class="max-w-sm rounded overflow-hidden shadow-lg absolute top-10 -right-1"
+>
+  <div
+    class="px-4 py-4 bg-black"
+  >
+    <p
+      class="text-xl pb-4"
+    >
+      Neighborhood 1
+    </p>
+    <p
+      class="text-sm"
+    >
+      Ano 
+      2021
+      : 
+      10000
+    </p>
+    <p
+      class="text-sm"
+    >
+      Ano 
+      2022
+      : 
+      8000
+    </p>
+  </div>
+</div>
+`;
