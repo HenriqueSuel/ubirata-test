@@ -31,35 +31,3 @@ exports[`SelectInput > should render SelectInput 1`] = `
   </select>
 </div>
 `;
-
-exports[`SelectInput > should render label and options correctly 1`] = `
-<div
-  class="mx-4"
->
-  <label
-    for="Select an option"
-  >
-    Select an option
-  </label>
-  <select
-    class="block appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-1 px-2 pr-7 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-    id="Select an option"
-  >
-    <option
-      value="1"
-    >
-      Option 1
-    </option>
-    <option
-      value="2"
-    >
-      Option 2
-    </option>
-    <option
-      value="3"
-    >
-      Option 3
-    </option>
-  </select>
-</div>
-`;

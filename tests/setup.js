@@ -3,6 +3,10 @@ import { cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom'
 import matchers from '@testing-library/jest-dom/matchers';
 
+import ResizeObserver from 'resize-observer-polyfill';
+
+window.ResizeObserver = ResizeObserver;
+
 
 // extends Vitest's expect method with methods from react-testing-library
 expect.extend(matchers);
