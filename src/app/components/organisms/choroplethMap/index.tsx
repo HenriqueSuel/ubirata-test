@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useRef } from "react";
 import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import { Layer, LeafletMouseEvent } from 'leaflet';
@@ -52,7 +53,8 @@ const ChoroplethMap = () => {
   useEffect(() => {
     if (!idNeighborhood || !mapRef?.current) return;
 
-    const current = mapRef as unknown as IMapRef;
+    const current  = mapRef.current as unknown as IMapRef;
+
     const keysTargets = Object.keys(current._targets);
 
     const key = keysTargets.find(key => {

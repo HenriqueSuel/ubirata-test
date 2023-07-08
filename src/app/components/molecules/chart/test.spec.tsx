@@ -46,8 +46,8 @@ describe('Chart', () => {
     it('should render BarChart with population data', () => {
         render(<Chart />);
 
-        mockPopulation.forEach(({ populacao }) => {
-            const bar = screen.getByText(populacao.toString());
+        mockPopulation.forEach(({ ano }) => {
+            const bar = screen.getByText(ano.toString());
             expect(bar).toBeInTheDocument();
         });
     });

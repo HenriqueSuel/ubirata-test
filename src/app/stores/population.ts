@@ -62,8 +62,6 @@ const usePopulation = create<PopulationState>()(
         populationNeighborhoods
       );
 
-      console.log('filters', filters)
-
       const populationInitial = populationNeighborhoods.filter(
         (population) => population.id_geometria === filters.neighborhoods[0].id
       );
@@ -79,13 +77,6 @@ const usePopulation = create<PopulationState>()(
         neighborhoodGeometries,
         populationNeighborhoods,
       }));
-
-      console.log({  selectedData: {
-        idNeighborhood: filters.neighborhoods[0].id,
-        neighborhood: filters.neighborhoods[0],
-        population: populationInitial,
-        years: filters.years[0],
-      },})
     },
     handleSelectData: ({ idNeighborhood, years }) => {
       const existingIdNeighborhood =

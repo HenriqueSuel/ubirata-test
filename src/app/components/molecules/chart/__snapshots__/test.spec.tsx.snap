@@ -110,7 +110,7 @@ exports[`Chart > should render neighborhood name and years correctly 1`] = `
                   dy="0.71em"
                   x="247.5"
                 >
-                  10030
+                  2021
                 </tspan>
               </text>
             </g>
@@ -146,7 +146,7 @@ exports[`Chart > should render neighborhood name and years correctly 1`] = `
                   dy="0.71em"
                   x="612.5"
                 >
-                  8000
+                  2022
                 </tspan>
               </text>
             </g>
