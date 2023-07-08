@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Tecnologias usadas
 
-## Getting Started
+[NextJs](https://nextjs.org/) - O sitema foi feito em NextJs 13
 
-First, run the development server:
+[Vitest](https://vitest.dev/) - Todos os testes unitários foram feitos com o Vitest
+
+[Tailwindui](https://tailwindui.com/) - Os componentes foram criados usando a lib Tailwindui.
+
+[React Leaflet](https://react-leaflet.js.org/) - Componente de mapa.
+
+[Recharts](https://recharts.org/en-US/) - Componente de gráficos.
+
+[Vercel](https://vercel.com/) - Para fazer a hospedagem site.
+
+## Como Rodar local
+
+Requisitos: Node >= 16
+
+1º Temos que instalar as dependências
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Pronto, agora só rodar o projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
 
-## Learn More
+https://github.com/HenriqueSuel/teste-henrique/assets/22986830/bb6fc7b4-d22b-4186-8d3d-8b13602d7666
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Como contribuir
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para contribuir basta criar uma branch e abrir um PR.
 
-## Deploy on Vercel
+## Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para fazer o deploy basta fazer o merge do seu PR para a branch MAIN.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Link do sistema em prod: https://ubirata-test.vercel.app/
+Link do sitema em homolog: (Se tivesse colocaria aqui)
